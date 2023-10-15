@@ -1,0 +1,14 @@
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  border: 2px dashed black;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.headerNav {
+  display: flex;
+  margin-left: 100px;
+  align-items: center;
+}
