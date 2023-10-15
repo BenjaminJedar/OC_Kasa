@@ -1,5 +1,6 @@
 //import '../styles/Home.css'
 import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 
 function APropos() {
   return (
@@ -9,6 +10,7 @@ function APropos() {
         Histoire de Kasa : Nous sommes les meilleurs parceque bla bla bla
         ...........
       </p>
+      <Footer />
     </div>
   )
 }
