@@ -1,0 +1,25 @@
+.logoDiv {
+  display: flex;
+  flex-direction: raw;
+}
+
+.logoK {
+  margin-right: 4px;
+}
+
+.logoA1 {
+  margin-left: 4px;
+  height: 80%;
+  align-self: flex-end;
+}
+
+.logoS {
+  margin-left: 4px;
+  height: 80%;
+  align-self: flex-end;
+}
+.logoA2 {
+  margin-left: 4px;
+  height: 80%;
+  align-self: flex-end;
+}

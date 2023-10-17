@@ -1,0 +1,31 @@
+body {
+  margin: 0 100px;
+}
+
+.title_section {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: grey;
+  height: 223px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+.title {
+  border: 2px dashed black;
+  color: white;
+  text-align: center;
+  align-self: center;
+  margin: 0;
+  z-index: 2;
+}
+
+.bg_title {
+  object-fit: fill;
+}
+
+.location_section {
+  background-color: #f6f6f6;
+  border-radius: 20px;
+}
