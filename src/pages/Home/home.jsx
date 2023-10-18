@@ -1,8 +1,6 @@
-import './home.css'
-import bg_title_home from '../../assets/bg_title_home.jpg'
-
-const logements = require('../../data/logements.json')
-console.log(logements)
+import './home.css';
+import bg_title_home from '../../assets/bg_title_home.jpg';
+import LocationList from '../../components/LocationList/locationList';
 
 function Home() {
   return (
@@ -16,13 +14,10 @@ function Home() {
         />
       </section>
       <section className="location_section">
-        <div className="card">
-          <img src={logements[0].pictures[0]} alt="logement" />
-          <p className="location_title">{logements[0].title}</p>
-        </div>
+        <LocationList />
       </section>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
