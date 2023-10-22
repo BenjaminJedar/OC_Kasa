@@ -1,21 +1,26 @@
-.logoDiv {
+.logoDivBlanc {
   display: flex;
   flex-direction: raw;
+  height: 30px;
 }
 
-.logoA1 {
-  margin-left: 4px;
+.kBlanc {
+  margin-right: 1px;
+}
+
+.A1Blanc {
+  margin-left: 1px;
   height: 80%;
   align-self: flex-end;
 }
 
-.logoS {
-  margin-left: 4px;
+.SBlanc {
+  margin-left: 3px;
   height: 80%;
   align-self: flex-end;
 }
-.logoA2 {
-  margin-left: 4px;
+.A2Blanc {
+  margin-left: 3px;
   height: 80%;
   align-self: flex-end;
 }

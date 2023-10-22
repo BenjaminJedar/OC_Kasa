@@ -1,0 +1,9 @@
+.card {
+  border: 2px solid purple;
+  width: 340px;
+  height: 340px;
+}
+
+.coverImg {
+  height: 50px;
+}

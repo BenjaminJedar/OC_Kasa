@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="Home_page">
       <section className="title_section">
-        <h2 className="title">Chez vous, partout et ailleurs</h2>
+        <h1 className="title">Chez vous, partout et ailleurs</h1>
         <img
           src={bg_title_home}
           alt="background du titre"

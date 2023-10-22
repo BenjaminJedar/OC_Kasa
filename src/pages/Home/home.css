@@ -1,5 +1,6 @@
 body {
   margin: 0 100px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .title_section {
@@ -10,19 +11,22 @@ body {
   height: 223px;
   margin-bottom: 50px;
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .title {
-  border: 2px dashed black;
-  color: white;
+  color: #ffffff;
   text-align: center;
   align-self: center;
   margin: 0;
+  font-size: 52px;
   z-index: 2;
+  overflow: hiden;
 }
 
 .bg_title {
-  object-fit: fill;
+  position: relative;
+  right: 25%;
 }
 
 .location_section {

@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 209px;
+  margin-top: 100px;
+}
+
+.footerLogo {
+  margin-top: 30px;
+}
+
+.footerP {
+  margin-top: 30px;
+  color: white;
+  font-size: 18px;
+}

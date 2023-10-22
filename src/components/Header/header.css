@@ -1,7 +1,6 @@
 .headerSection {
   display: flex;
   justify-content: space-between;
-  border: 2px dashed black;
   margin: 40px 0;
   height: 68px;
 }
@@ -12,9 +11,9 @@
   align-items: center;
 }
 
-a {
+.lien {
   color: #ff6060;
   text-decoration: none;
-  font-size: 19px;
-  border: 2px dashed red;
+  font-size: 22px;
+  margin-left: 50px;
 }
