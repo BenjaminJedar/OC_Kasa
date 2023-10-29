@@ -1,9 +1,15 @@
 .card {
-  border: 2px solid purple;
   width: 340px;
   height: 340px;
+  overflow: hidden;
+  background-color: #ff6060;
+  border-radius: 10px;
 }
 
 .coverImg {
-  height: 50px;
+  height: 200px;
+}
+
+.location_title {
+  color: #000;
 }

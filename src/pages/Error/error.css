@@ -1,0 +1,25 @@
+.div_error {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #ff6060;
+  font-size: 300px;
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  color: #ff6060;
+  font-size: 30px;
+}
+
+.lien_accueil_404 {
+  margin-top: 120px;
+  color: #ff6060;
+
+  font-size: 20px;
+}

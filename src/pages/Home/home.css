@@ -1,32 +1,29 @@
-body {
+.Home_page {
   margin: 0 100px;
   font-family: 'Montserrat', sans-serif;
+  margin-bottom: 100px;
 }
 
 .title_section {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  background-color: grey;
+  display: grid;
   height: 223px;
   margin-bottom: 50px;
   border-radius: 20px;
   overflow: hidden;
+  background-color: gray;
 }
 
 .title {
-  color: #ffffff;
-  text-align: center;
-  align-self: center;
-  margin: 0;
+  grid-column: 1/1;
+  grid-row: 1/1;
+  color: #333;
   font-size: 52px;
-  z-index: 2;
   overflow: hiden;
 }
 
 .bg_title {
-  position: relative;
-  right: 25%;
+  grid-column: 1/1;
+  grid-row: 1/1;
 }
 
 .location_section {

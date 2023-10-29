@@ -8,7 +8,7 @@ let lien_a_propos = document.querySelector('.lien_a_propos');
 function Header() {
   return (
     <div>
-      <section className="headerSection">
+      <div className="headerSection">
         <Logo className="headerLogo" />
         <nav className="headerNav">
           <Link
@@ -22,7 +22,7 @@ function Header() {
             A propos
           </Link>
         </nav>
-      </section>
+      </div>
     </div>
   );
 }

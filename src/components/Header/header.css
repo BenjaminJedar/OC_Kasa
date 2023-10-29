@@ -1,8 +1,10 @@
 .headerSection {
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: space-between;
-  margin: 40px 0;
-  height: 68px;
+  align-items: center;
+  margin: 40px 100px;
+  height: 60px;
 }
 
 .headerNav {
@@ -14,6 +16,6 @@
 .lien {
   color: #ff6060;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 19px;
   margin-left: 50px;
 }

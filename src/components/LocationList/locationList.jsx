@@ -5,7 +5,7 @@ console.log(logements);
 
 function locationList() {
   return (
-    <ul className="listOfLocations">
+    <section className="listOfLocations">
       {logements.map((logement) => (
         <Card
           key={logement.id}
@@ -14,7 +14,7 @@ function locationList() {
           id_value={logement.id}
         />
       ))}
-    </ul>
+    </section>
   );
 }
 
