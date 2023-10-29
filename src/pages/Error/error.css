@@ -7,19 +7,18 @@
 
 h1 {
   color: #ff6060;
-  font-size: 300px;
+  font-size: 230px;
   font-weight: 700;
   margin: 0;
 }
 
 p {
   color: #ff6060;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .lien_accueil_404 {
-  margin-top: 120px;
+  margin: 130px 0;
   color: #ff6060;
-
   font-size: 20px;
 }

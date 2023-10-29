@@ -10,7 +10,7 @@ function Home() {
         <img
           src={bg_title_home}
           alt="background du titre"
-          className="bg_title"
+          className="img_title"
         />
       </header>
       <main className="location_section">

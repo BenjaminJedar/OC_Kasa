@@ -6,24 +6,27 @@
 
 .title_section {
   display: grid;
-  height: 223px;
+  grid-template-areas: 'stack';
+  place-items: center;
   margin-bottom: 50px;
-  border-radius: 20px;
-  overflow: hidden;
-  background-color: gray;
 }
 
 .title {
-  grid-column: 1/1;
-  grid-row: 1/1;
-  color: #333;
-  font-size: 52px;
+  grid-area: stack;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 500;
   overflow: hiden;
+  z-index: 2;
 }
 
-.bg_title {
-  grid-column: 1/1;
-  grid-row: 1/1;
+.img_title {
+  grid-area: stack;
+  width: 100%;
+  object-fit: cover;
+  height: 223px;
+  border-radius: 20px;
+  filter: brightness(75%);
 }
 
 .location_section {
