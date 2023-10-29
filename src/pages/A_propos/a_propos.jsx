@@ -2,12 +2,16 @@ import { useState } from 'react';
 import imgAPropos from '../../assets/a_propos_img.jpeg';
 import vector from '../../assets/Vector.svg';
 import './a_propos.css';
+import Collapse from '../../components/Collapse/collapse';
 
 function APropos() {
-  const [isParagraphOneOpen, setOneIsOpen] = useState(false);
-  const [isParagraphTwoOpen, setTwoIsOpen] = useState(false);
-  const [isParagraphThreeOpen, setThreeIsOpen] = useState(false);
-  const [isParagraphFourOpen, setFourIsOpen] = useState(false);
+  const [isParagraphOneOpen, setOneIsOpen] = useState(true);
+  const [isParagraphTwoOpen, setTwoIsOpen] = useState(true);
+  const [isParagraphThreeOpen, setThreeIsOpen] = useState(true);
+  const [isParagraphFourOpen, setFourIsOpen] = useState(true);
+  /*   const title1 = 'Fiabilité';
+  const content1 =
+    'Les annonces postées sur Kasa garantissent une fiabilité totale.'; */
 
   return (
     <div className="a_propos">

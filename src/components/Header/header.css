@@ -19,3 +19,18 @@
   font-size: 19px;
   margin-left: 50px;
 }
+
+@media (max-width: 780px) {
+  .headerSection {
+    margin: 0;
+    padding: 40px 20px;
+  }
+
+  .headerNav {
+    margin: 0;
+  }
+
+  .lien {
+    font-size: 4vw;
+  }
+}

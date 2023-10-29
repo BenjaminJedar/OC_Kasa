@@ -1,6 +1,6 @@
 .listOfLocations {
+  padding: 25px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 50px;
-  place-content: center;
+  gap: 50px;
 }

@@ -11,11 +11,7 @@ function Header() {
       <div className="headerSection">
         <Logo className="headerLogo" />
         <nav className="headerNav">
-          <Link
-            to="/"
-            className="lien lien_accueil"
-            onClick={() => alert('Tu viens de cliquer sur un lien là !')}
-          >
+          <Link to="/" className="lien lien_accueil">
             Accueil
           </Link>
           <Link to="/a_propos" className="lien lien_a_propos">

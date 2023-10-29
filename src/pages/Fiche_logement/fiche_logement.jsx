@@ -1,12 +1,16 @@
+const logements = require('../../data/logements.json');
+
 function FicheLogement() {
   return (
-    <div className="Home">
-      <p>
-        Voici la page qui affichera des super logements bien stylés le tout codé
-        en React !
-      </p>
+    <div className="fiche_logement">
+      <div className="slider"></div>
+      <main>
+        <h2>Le titre du logement</h2>
+        <p>La localisation du logement</p>
+        <div>tags</div>
+      </main>
     </div>
-  )
+  );
 }
 
-export default FicheLogement
+export default FicheLogement;

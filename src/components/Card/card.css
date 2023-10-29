@@ -1,15 +1,25 @@
 .card {
-  width: 340px;
-  height: 340px;
+  display: grid;
+  grid-template-columns: 1;
+  width: 100%;
   overflow: hidden;
-  background-color: #ff6060;
-  border-radius: 10px;
+}
+
+.card_link {
+  margin: 0;
+  text-decoration: none;
 }
 
 .coverImg {
-  height: 200px;
+  grid-row: 1/1;
+  grid-column: 1/1;
+  border-radius: 10px;
+  object-fit: cover;
+  width: 100%;
 }
 
 .location_title {
+  grid-row: 1/1;
+  grid-column: 1/1;
   color: #000;
 }
