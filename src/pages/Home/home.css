@@ -33,3 +33,9 @@
   background-color: #f6f6f6;
   border-radius: 20px;
 }
+
+@media (max-width: 640px) {
+  .Home_page {
+    margin: 0 20px;
+  }
+}

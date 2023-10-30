@@ -3,6 +3,11 @@ const logements = require('../../data/logements.json');
 import('./fiche_logement.css');
 
 function FicheLogement() {
+  const indexOfLocation = logements.findIndex(
+    () => logements.id === '7cbb378e',
+  );
+
+  console.log(logements[0].id);
   return (
     <div className="fiche_logement">
       <div className="slider">
