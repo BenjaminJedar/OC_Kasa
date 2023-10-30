@@ -14,7 +14,7 @@
 .title {
   grid-area: stack;
   color: #fff;
-  font-size: 48px;
+  font-size: clamp(1.5rem, 4vw, 3rem);
   font-weight: 500;
   overflow: hiden;
   z-index: 2;

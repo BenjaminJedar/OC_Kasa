@@ -2,5 +2,5 @@
   padding: 25px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 50px;
+  gap: 50px 60px;
 }

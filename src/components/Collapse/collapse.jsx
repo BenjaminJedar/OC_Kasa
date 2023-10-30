@@ -2,7 +2,7 @@ import './collapse.css';
 import { useState } from 'react';
 import vector from '../../assets/Vector.svg';
 
-function Collapse(titleValue, contentValue) {
+function Collapse({ titleValue, contentValue }) {
   const [isCollapseOpen, setCollapseIsOpen] = useState(true);
 
   return (
@@ -14,11 +14,11 @@ function Collapse(titleValue, contentValue) {
         }
       >
         <h2>{titleValue}</h2>
-        {isCollapseOpen ? (
-          <img src={vector} alt="vector" />
-        ) : (
-          <img src={vector} alt="vector" className="inverse" />
-        )}
+        <img
+          src={vector}
+          alt="vector"
+          className={isCollapseOpen ? '' : 'inverse'}
+        />
       </div>
       {isCollapseOpen && <p className="p_accordeon">{contentValue}</p>}
     </div>

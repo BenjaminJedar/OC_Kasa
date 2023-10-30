@@ -1,0 +1,8 @@
+.fiche_logement {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 100px;
+}
+
+.info {
+  display: grid;
+}

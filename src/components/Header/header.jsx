@@ -2,9 +2,6 @@ import { Link } from 'react-router-dom';
 import Logo from '../Logo/logo';
 import './header.css';
 
-let lien_accueil = document.querySelector('.lien_accueil');
-let lien_a_propos = document.querySelector('.lien_a_propos');
-
 function Header() {
   return (
     <div>
