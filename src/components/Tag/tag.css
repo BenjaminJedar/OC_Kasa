@@ -1,0 +1,12 @@
+.tag_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  margin-right: 20px;
+  min-width: 115px;
+  height: 30px;
+  background-color: #ff6060;
+  color: #fff;
+  border-radius: 20px;
+}

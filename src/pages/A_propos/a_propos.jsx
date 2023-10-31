@@ -15,11 +15,11 @@ function APropos() {
       </header>
 
       <section className="content_section">
-        {data.map((index) => (
+        {data.map((data, index) => (
           <Collapse
             key={Math.random()}
-            titleValue={data[0].title}
-            contentValue={data[0].content}
+            titleValue={data.title}
+            contentValue={data.content}
           />
         ))}
       </section>
