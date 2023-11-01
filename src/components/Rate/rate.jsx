@@ -1,8 +1,4 @@
-import './rate.css';
-
 function Rate({ nbStarsFull }) {
-  /*   const range = [1, 2, 3, 4, 5]; */
-
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

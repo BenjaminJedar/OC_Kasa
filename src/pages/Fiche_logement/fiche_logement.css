@@ -66,8 +66,7 @@ p {
 }
 
 .rate {
-  display: flex;
-  justify-content: flex-end;
+  width: 150%;
 }
 
 .tags {

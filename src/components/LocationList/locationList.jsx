@@ -1,7 +1,6 @@
 import Card from '../Card/card';
 import './locationList.css';
 const logements = require('../../data/logements.json');
-console.log(logements);
 
 function locationList() {
   return (

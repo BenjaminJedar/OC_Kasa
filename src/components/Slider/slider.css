@@ -1,0 +1,26 @@
+.slider {
+  display: grid;
+  grid-template-areas: 'stack';
+}
+
+.slide_img {
+  grid-area: stack;
+  height: 415px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.arrows {
+  grid-area: stack;
+  display: flex;
+}
+
+.left_arrow {
+  cursor: pointer;
+  background-color: rgb(92, 0, 0);
+}
+
+.right_arrow {
+  cursor: pointer;
+  background-color: rgb(0, 5, 144);
+}
