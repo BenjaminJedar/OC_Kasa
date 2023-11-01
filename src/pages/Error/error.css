@@ -5,14 +5,14 @@
   align-items: center;
 }
 
-h1 {
+.title_404 {
   color: #ff6060;
   font-size: 230px;
   font-weight: 700;
   margin: 0;
 }
 
-p {
+.msg_404 {
   color: #ff6060;
   font-size: 28px;
 }
@@ -21,4 +21,23 @@ p {
   margin: 130px 0;
   color: #ff6060;
   font-size: 20px;
+}
+
+@media (max-width: 640px) {
+  .title_404 {
+    margin-top: 170px;
+    font-size: 100px;
+  }
+
+  .msg_404 {
+    text-align: center;
+    color: #ff6060;
+    font-size: 18px;
+    width: 80%;
+    font-weight: 500;
+  }
+
+  .lien_accueil_404 {
+    font-size: 14px;
+  }
 }

@@ -28,9 +28,23 @@
 }
 
 .p_accordeon {
+  color: #ff6060;
+  margin: 0;
+  background-color: #f6f6f6;
   font-size: 18px;
 }
 
 .inverse {
   transform: rotate(180deg);
+}
+
+@media (max-width: 640px) {
+  .title_accordeon h2 {
+    font-size: 13px;
+    font-weight: normal;
+  }
+
+  .p_accordeon {
+    font-size: 12px;
+  }
 }

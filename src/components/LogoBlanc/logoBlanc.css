@@ -1,7 +1,6 @@
 .logoDivBlanc {
   display: flex;
   flex-direction: raw;
-  height: 30px;
 }
 
 .kBlanc {
@@ -23,4 +22,10 @@
   margin-left: 3px;
   height: 80%;
   align-self: flex-end;
+}
+
+@media (max-width: 640px) {
+  .logoDivBlanc {
+    height: 20px;
+  }
 }

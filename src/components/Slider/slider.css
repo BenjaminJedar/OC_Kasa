@@ -33,3 +33,9 @@
   cursor: pointer;
   height: 20%;
 }
+
+@media (max-width: 640px) {
+  .arrows {
+    height: 25%;
+  }
+}

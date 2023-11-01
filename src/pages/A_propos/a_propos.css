@@ -4,6 +4,7 @@
 }
 
 .a_propos_img {
+  filter: brightness(80%);
   border-radius: 25px;
   height: 30vh;
   width: 100%;
@@ -15,41 +16,11 @@
   padding: 0 100px;
 }
 
-.accordeon {
-  margin-bottom: 20px;
-}
-
-.title_accordeon {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  background-color: #ff6060;
-  border-radius: 5px;
-  height: 40px;
-  padding: 0 20px;
-}
-
-.title_accordeon h2 {
-  font-size: 20px;
-}
-
-.title_accordeon img {
-  height: 12px;
-  object-fit: cover;
-}
-
-.p_accordeon {
-  margin: 0;
-  background-color: #f6f6f6;
-  font-size: 20px;
-}
-
 .inverse {
   transform: rotate(180deg);
 }
 
-@media (max-width: 780px) {
+@media (max-width: 640px) {
   .a_propos {
     margin: 0 20px;
   }

@@ -23,16 +23,19 @@ p {
 
 .accommodation_place {
   font-size: 18px;
+  color: #ff6060;
 }
 
 .host_info {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   grid-row: 1/2;
   grid-column: 2/3;
 }
 
 .host_name {
+  color: #ff6060;
   display: flex;
   align-items: center;
   width: 18%;
@@ -51,4 +54,36 @@ p {
 .tags {
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 640px) {
+  .grid_content {
+    display: grid;
+    grid-template-columns: 1;
+    gap: 10px;
+  }
+
+  .accommodation_title {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .accommodation_place {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  .tags {
+    grid-row: 3;
+    grid-column: 1;
+  }
+  .rate {
+    grid-row: 4;
+    grid-column: 1;
+  }
+
+  .host_info {
+    grid-row: 5;
+    grid-column: 1;
+  }
 }
