@@ -1,5 +1,6 @@
 import Collapse from '../../components/Collapse/collapse';
 import Tag from '../../components/Tag/tag';
+import Rate from '../../components/Rate/rate';
 const logements = require('../../data/logements.json');
 import('./fiche_logement.css');
 
@@ -35,7 +36,7 @@ function FicheLogement() {
           />
         </div>
 
-        <div className="rate"></div>
+        <Rate className="rate" nbStarsFull={logements[3].rating} />
         <Collapse
           titleValue="Description"
           contentValue={logements[0].description}

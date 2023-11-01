@@ -1,0 +1,11 @@
+.rate {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+svg,
+path {
+  margin: 0;
+  padding: 0;
+}
