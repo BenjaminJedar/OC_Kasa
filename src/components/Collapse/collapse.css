@@ -22,11 +22,13 @@
   object-fit: cover;
 }
 
-.p_accordeon {
-  margin: 0;
-  padding: 15px;
+.content_accordeon {
   background-color: #f6f6f6;
-  font-size: 20px;
+  padding: 20px 0 10px 10px;
+}
+
+.p_accordeon {
+  font-size: 18px;
 }
 
 .inverse {

@@ -4,7 +4,6 @@ import vector from '../../assets/Vector.svg';
 
 function Collapse({ titleValue, contentValue }) {
   const [isCollapseOpen, setCollapseIsOpen] = useState(true);
-
   return (
     <div className="accordeon">
       <div
@@ -20,7 +19,17 @@ function Collapse({ titleValue, contentValue }) {
           className={isCollapseOpen ? '' : 'inverse'}
         />
       </div>
-      {isCollapseOpen && <p className="p_accordeon">{contentValue}</p>}
+      {isCollapseOpen && (
+        <div className="content_accordeon">
+          {isCollapseOpen && Array.isArray(contentValue)
+            ? contentValue.map((content) => (
+                <p className="p_accordeon" key={Math.random()}>
+                  {content}
+                </p>
+              ))
+            : isCollapseOpen && <p className="p_accordeon">{contentValue}</p>}
+        </div>
+      )}
     </div>
   );
 }
