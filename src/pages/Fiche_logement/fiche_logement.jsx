@@ -36,7 +36,8 @@ function FicheLogement() {
           />
         </div>
 
-        <Rate className="rate" nbStarsFull={logements[3].rating} />
+        <Rate className="rate" nbStarsFull={logements[1].rating} />
+
         <Collapse
           titleValue="Description"
           contentValue={logements[0].description}
