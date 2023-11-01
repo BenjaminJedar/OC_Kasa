@@ -14,9 +14,8 @@ function FicheLogement() {
 
   return (
     <div className="fiche_logement">
-      <div className="slider">
-        <Slider arrayOfPictures={accommodation[0].pictures} />
-      </div>
+      <Slider arrayOfPictures={accommodation[0].pictures} className="slider" />
+
       <main className="grid_content">
         <div className="title_content">
           <h2 className="accommodation_title">{accommodation[0].title}</h2>
