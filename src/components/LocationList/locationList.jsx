@@ -12,6 +12,7 @@ function locationList() {
           title_value={logement.title}
           img_value={logement.cover}
           id_value={logement.id}
+          className="card"
         />
       ))}
     </section>

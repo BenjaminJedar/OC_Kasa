@@ -4,9 +4,10 @@
   align-items: center;
   padding: 0 20px;
   margin-right: 20px;
-  min-width: 115px;
-  height: 30px;
+  width: 115px;
+  height: 25px;
   background-color: #ff6060;
   color: #fff;
-  border-radius: 20px;
+  border-radius: 10px;
+  font-size: 14px;
 }

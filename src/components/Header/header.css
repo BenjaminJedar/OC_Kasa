@@ -20,6 +20,10 @@
   margin-left: 50px;
 }
 
+.active {
+  text-decoration: underline;
+}
+
 @media (max-width: 780px) {
   .headerSection {
     margin: 0;

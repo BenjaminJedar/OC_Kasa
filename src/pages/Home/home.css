@@ -1,7 +1,6 @@
 .Home_page {
   margin: 0 100px;
   font-family: 'Montserrat', sans-serif;
-  margin-bottom: 100px;
 }
 
 .title_section {
@@ -32,10 +31,19 @@
 .location_section {
   background-color: #f6f6f6;
   border-radius: 20px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 640px) {
   .Home_page {
     margin: 0 20px;
+  }
+
+  .title {
+    width: 220px;
+    background-color: red;
+  }
+
+  .title_section {
   }
 }
