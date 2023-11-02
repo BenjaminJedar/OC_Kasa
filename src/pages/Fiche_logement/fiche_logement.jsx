@@ -35,8 +35,9 @@ function FicheLogement() {
             className="host_picture"
           />
         </div>
-
-        <Rate className="rate" nbStarsFull={accommodation[0].rating} />
+        <div className="rate">
+          <Rate nbStarsFull={accommodation[0].rating} />
+        </div>
 
         <Collapse
           titleValue="Description"

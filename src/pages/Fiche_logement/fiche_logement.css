@@ -48,7 +48,8 @@ p {
 }
 
 .rate {
-  width: 150%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .tags {
@@ -57,20 +58,26 @@ p {
 }
 
 @media (max-width: 640px) {
+  .fiche_logement {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 20px;
+  }
+
   .grid_content {
-    display: grid;
-    grid-template-columns: 1;
-    gap: 10px;
+    display: flex;
+    flex-direction: column;
   }
 
   .accommodation_title {
     grid-row: 1;
     grid-column: 1;
+    font-size: 18px;
   }
 
   .accommodation_place {
     grid-row: 2;
     grid-column: 1;
+    font-size: 14px;
   }
 
   .tags {

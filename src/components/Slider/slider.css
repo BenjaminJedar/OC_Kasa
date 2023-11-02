@@ -35,7 +35,22 @@
 }
 
 @media (max-width: 640px) {
+  .slider {
+    height: auto;
+    width: auto;
+  }
+
   .arrows {
-    height: 25%;
+    padding: 5px;
+  }
+
+  .left_arrow,
+  .right_arrow {
+    height: 9%;
+  }
+
+  .slide_img {
+    height: 255px;
+    border-radius: 10px;
   }
 }

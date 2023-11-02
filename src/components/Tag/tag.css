@@ -11,3 +11,11 @@
   border-radius: 10px;
   font-size: 14px;
 }
+
+@media (max-width: 640px) {
+  .tag_box {
+    width: 84px;
+    height: 18px;
+    font-size: 10px;
+  }
+}
