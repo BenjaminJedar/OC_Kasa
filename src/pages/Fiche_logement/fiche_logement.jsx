@@ -42,10 +42,12 @@ function FicheLogement() {
         <Collapse
           titleValue="Description"
           contentValue={accommodation[0].description}
+          className="collapse_logement"
         />
         <Collapse
           titleValue="Equipements"
           contentValue={accommodation[0].equipments}
+          className="collapse_logement"
         />
       </main>
     </div>

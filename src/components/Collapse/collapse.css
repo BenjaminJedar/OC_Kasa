@@ -47,4 +47,8 @@
   .p_accordeon {
     font-size: 12px;
   }
+
+  .title_accordeon {
+    height: 30px;
+  }
 }

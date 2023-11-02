@@ -5,7 +5,7 @@
   padding: 0 20px;
   margin-right: 20px;
   width: 115px;
-  height: 25px;
+  min-height: 25px;
   background-color: #ff6060;
   color: #fff;
   border-radius: 10px;
@@ -15,7 +15,9 @@
 @media (max-width: 640px) {
   .tag_box {
     width: 84px;
-    height: 18px;
+    min-height: 18px;
     font-size: 10px;
+    border-radius: 7px;
+    margin-right: 10px;
   }
 }

@@ -45,9 +45,11 @@
 
   .img_title {
     height: 111px;
+    border-radius: 10px;
   }
 
   .title {
     width: 220px;
+    margin-left: -80px;
   }
 }

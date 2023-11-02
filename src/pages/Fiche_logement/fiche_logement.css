@@ -38,7 +38,7 @@ p {
   color: #ff6060;
   display: flex;
   align-items: center;
-  width: 18%;
+  width: 23%;
   font-size: 18px;
 }
 
@@ -69,28 +69,29 @@ p {
   }
 
   .accommodation_title {
-    grid-row: 1;
-    grid-column: 1;
     font-size: 18px;
   }
 
   .accommodation_place {
-    grid-row: 2;
-    grid-column: 1;
     font-size: 14px;
   }
 
-  .tags {
-    grid-row: 3;
-    grid-column: 1;
-  }
   .rate {
-    grid-row: 4;
-    grid-column: 1;
+    width: 40%;
+    margin-top: -45px;
+    margin-bottom: 10px;
   }
 
-  .host_info {
-    grid-row: 5;
-    grid-column: 1;
+  .host_picture {
+    height: 32px;
+  }
+
+  .host_name {
+    font-size: 12px;
+    width: 20%;
+  }
+
+  .collapse_logement {
+    margin-bottom: 5px;
   }
 }

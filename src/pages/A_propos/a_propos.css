@@ -28,4 +28,9 @@
   .content_section {
     padding: 0;
   }
+
+  .a_propos_img {
+    border-radius: 10px;
+    height: 225px;
+  }
 }
