@@ -13,10 +13,3 @@ function Card({ title_value, img_value, id_value }) {
 }
 
 export default Card;
-
-/* const isIdExist = logements.find((logement) => logement.id_value);
-console.log(isIdExist);
-
-return (
-  <Link
-    to={isIdExist ? `/fiche_logement/${id_value}` : `/fiche_logement`} */

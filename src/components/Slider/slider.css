@@ -16,12 +16,24 @@
 }
 
 .arrows {
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px;
   grid-column: 1/1;
   grid-row: 1/1;
+}
+
+.counter_img {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+  grid-column: 1/1;
+  grid-row: 1/1;
+  color: #fff;
+  font-size: 30px;
 }
 
 .left_arrow {

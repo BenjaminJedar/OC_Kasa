@@ -40,7 +40,9 @@ function Slider({ arrayOfPictures }) {
           alt="right arrow"
         />
       </div>
-      <div className="counter_img"></div>
+      <div className="counter_img">
+        {`${currentIndex + 1}`}/{arrayOfPictures.length}
+      </div>
     </div>
   );
 }

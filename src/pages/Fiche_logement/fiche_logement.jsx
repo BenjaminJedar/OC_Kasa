@@ -16,7 +16,6 @@ function FicheLogement() {
   const validAccommodation = logements.find((logement) => logement.id === id);
 
   if (!validAccommodation) {
-    // Si pas de logement trouvé, on redirige vers la page d'erreur
     return <Navigate to="/error" replace />;
   }
 
