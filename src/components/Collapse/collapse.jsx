@@ -3,7 +3,7 @@ import { useState } from 'react';
 import vector from '../../assets/Vector.svg';
 
 function Collapse({ titleValue, contentValue }) {
-  const [isCollapseOpen, setCollapseIsOpen] = useState(true);
+  const [isCollapseOpen, setCollapseIsOpen] = useState(false);
   return (
     <div className="accordeon">
       <div
