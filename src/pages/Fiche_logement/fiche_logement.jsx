@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useParams, Navigate } from 'react-router-dom';
 import Collapse from '../../components/Collapse/collapse';
 import Tag from '../../components/Tag/tag';
 import Rate from '../../components/Rate/rate';
@@ -11,6 +11,14 @@ function FicheLogement() {
   const accommodation = logements.filter(
     (logement) => logement.id === accommodationId,
   );
+
+  const { id } = useParams();
+  const validAccommodation = logements.find((logement) => logement.id === id);
+
+  if (!validAccommodation) {
+    // Si pas de logement trouvé, on redirige vers la page d'erreur
+    return <Navigate to="/error" replace />;
+  }
 
   return (
     <div className="fiche_logement">

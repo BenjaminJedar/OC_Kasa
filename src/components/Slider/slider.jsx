@@ -40,6 +40,7 @@ function Slider({ arrayOfPictures }) {
           alt="right arrow"
         />
       </div>
+      <div className="counter_img"></div>
     </div>
   );
 }
