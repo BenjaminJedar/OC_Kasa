@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/OC_Kasa/static/css/main.5c7f6f5a.css",
-    "main.js": "/OC_Kasa/static/js/main.a2829cf7.js",
+    "main.js": "/OC_Kasa/static/js/main.f59f7815.js",
     "static/css/726.14a9339f.chunk.css": "/OC_Kasa/static/css/726.14a9339f.chunk.css",
     "static/js/726.13bc275c.chunk.js": "/OC_Kasa/static/js/726.13bc275c.chunk.js",
     "static/media/a_propos_img.jpeg": "/OC_Kasa/static/media/a_propos_img.796d007cebdd47cc489b.jpeg",
@@ -19,12 +19,12 @@
     "static/media/k_kasa_blanc.svg": "/OC_Kasa/static/media/k_kasa_blanc.d43f20af47d1a86e33a7fd3b9fe35b29.svg",
     "static/media/K_kasa.svg": "/OC_Kasa/static/media/K_kasa.a2e01be6cd63d657ac76b1dc14f0a217.svg",
     "main.5c7f6f5a.css.map": "/OC_Kasa/static/css/main.5c7f6f5a.css.map",
-    "main.a2829cf7.js.map": "/OC_Kasa/static/js/main.a2829cf7.js.map",
+    "main.f59f7815.js.map": "/OC_Kasa/static/js/main.f59f7815.js.map",
     "726.14a9339f.chunk.css.map": "/OC_Kasa/static/css/726.14a9339f.chunk.css.map",
     "726.13bc275c.chunk.js.map": "/OC_Kasa/static/js/726.13bc275c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c7f6f5a.css",
-    "static/js/main.a2829cf7.js"
+    "static/js/main.f59f7815.js"
   ]
 }
